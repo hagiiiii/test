@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* 😀.cont01 */
+.cont01 {
+    background-color: rgb(213, 180, 235);
+}
+/* item들 flex를 이용하여 가로로 나열
+컨테이너 중심축 1280px
+화면 가운데 배치 */
+
+.cont01 .inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.cont01 .inner .list {
+    display: flex;
+        justify-content: space-between;
+    align-items: center;
+}
+
+.cont01 .inner .list .item {
+    width: 23%;
+}
+
+.cont01 .inner .list .item div {
+    width: 100%;
+    /*     height: 320px; */
+    position: relative; /* P 태그의 중심축 */
+}
+
+.cont01 .inner .list .item div p {
+    position: absolute;
+    /* 상위 부모 중 position에 영향을 받아 위치 이동됨 
+    position:absolute가 적용되면 방향설정 해줘야 함 
+    top, bottom 중에 작성
+    left, right 중에 작성 */
+    bottom: 10px;
+    left: 10px;
+
+    background-color: plum;
+    width: 50px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.cont01 .inner {
+    position: relative
+    /* 중심축 */
+}
+
+.cont01 .inner .list .item div img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+/* 상품이름 작성공간 */
+
+.cont01 .inner .list .item > p {
+    height: 45px;
+    margin-top: 5px;
+    background-color: rgb(45, 14, 129);
+
+    color: #fff;
+    line-height: 45px;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+
+.cont01 .inner .list .item:hover > p {
+    border: 1px solid #fff;
+}

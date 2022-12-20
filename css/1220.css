@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+   }
+   
+   @font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+    src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+   }
+   
+   .nanumbarungothic * {
+    font-family: 'NanumBarunGothic', sans-serif;
+   }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NanumBarunGothic';
+}
+
+.cont01 {
+    width: 1920px;
+    height: 877px;
+    margin: 100px auto;
+}
+
+.cont01 .inner {
+    width: 1280px;
+    height: 777px;
+    margin: 100px auto;
+}
+
+.cont01 .inner h3 {
+    font-size: 25pt;
+}
+
+
+.cont01 .inner .list {
+    width: 436px;
+    height: 602px;
+}
+
+.cont01 .inner .list div {
+    width: 436px;
+    height: 602px;
+    display: flex;
+}
+
+.cont01 .inner .list div h4 {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    background-color: #1665e9;
+    margin-left: 320px;
+}
+
+.cont01 .inner .list .item {
+
+}
+
+.cont01 .inner .list .item ul{
+    height: 602px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+/* .cont01 div div dl {
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    background-color: #1665e9;
+} */
+
+
+
+

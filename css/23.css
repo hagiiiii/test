@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Busan';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff2') format('woff2'),
+    url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/govs/busan/Busan/Busan.woff') format('woff');
+    }
+    
+    .busan * {
+    font-family: 'Busan', sans-serif;
+    }
+
+    @font-face {
+        font-family: 'NanumBarunGothic';
+        font-style: normal;
+        font-weight: 400;
+        src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+        src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+       }
+       
+       @font-face {
+        font-family: 'NanumBarunGothic';
+        font-style: normal;
+        font-weight: 700;
+        src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+        src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+       }
+       
+       @font-face {
+        font-family: 'NanumBarunGothic';
+        font-style: normal;
+        font-weight: 300;
+        src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+        src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+       }
+       
+       .nanumbarungothic * {
+        font-family: 'NanumBarunGothic', sans-serif;
+       }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #2d2d2d;
+}
+
+a { 
+    text-decoration: none; 
+    color: inherit; }
+
+.inner {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.inner div {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    line-height: 100px;
+    width: 1320px;
+    margin: 0 auto;
+
+}
+
+.inner div p {
+    color: #fff;
+    font-size: 30px;
+}
+
+
+.inner h1 {
+    text-align: center;
+
+    font-size: 50px;
+    font-family: 'Busan';
+}
+
+
+.inner nav ul {
+
+font-size: 28px;
+
+}
+
+.inner nav ul li {
+    display: inline-block;
+    color: #fff;
+}
+
+
+.main_video img {
+    margin: 84px 300px 59px 300px;
+}
+
+.cont01 {
+    width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.cont01 h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+.cont01 div {
+    display: flex;
+
+}
+
+.cont01 div .box div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.cont01 div .box {
+    width: 315px;
+    height: 557px;
+    position: relative;
+    margin: 0 10px;    
+    overflow: hidden;
+    border-radius: 20px;
+
+
+}
+
+.cont01 div .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.cont01 div .box img:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    
+
+}
+
+/* 폰트 */
+.cont01 div .box div {
+    display: block;
+    margin-bottom: 33px;
+
+    
+}
+
+
+.cont01 div .box div p {
+    width: fit-content;
+    color: #333;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: #fff;
+    margin-left: 31px;
+    margin-bottom: 21px;
+    font-family: 'NanumBarunGothic';
+    font-weight: 700;
+    padding: 0 22px;
+
+}
+
+.cont01 div .box div h3 {
+    color: #fff;
+    margin-left: 31px;
+    margin-bottom: 11px;
+    font-size: 18px;
+    font-family: 'NanumBarunGothic';
+}
+
+.cont01 div .box div h3:nth-child(2){
+    font-size: 17px;
+}
+
+.cont01 div .box div h4 {
+    color: #fff;
+    margin-left: 31px;
+    font-family: 'NanumBarunGothic';
+    font-weight: 500;
+}
+
+.cont02 {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.cont02 h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 75px 0 19px 0;
+}
+
+.cont02 .box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 102px;
+    font-family: 'NanumBarunGothic';
+}
+
+
+.cont02 .box div {
+    color: #333;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    height: 200px;
+}
+
+
+
+
+.cont02 .box div:hover {
+    background-color: rgba(51, 51, 51, 0.479);
+    color: #fff;
+}
+
+
+.cont02 .box div h4 {
+    margin: 43px 40px 16px;
+}
+
+
+.cont02 .box div h5 {
+    margin: 0 40px 39px
+}
+
+.cont02 .box div p {
+    width: 315px;
+    margin: 0 40px 35px 195px;
+}
+
+
+.footer {
+    width: 1920px;
+    border-top: 1px solid #dddddd;
+}
+
+.footer > div {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+
+}
+
+
+.footer div h1 {
+    font-size: 30pt;
+    color: #666666;
+    display: inline-block;
+}
+
+.footer div ul {
+    width: 272px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.footer div p {
+    width: 900px;
+    margin-bottom: 26px;
+    font-size:small;
+}
+

@@ -1,0 +1,24 @@
+@charset "utf-8";
+* { margin: 0; padding: 0; box-sizing: border-box; } 
+
+a { text-decoration: none; color: inherit; } 
+
+body { color: #333; line-height: 1; } 
+
+.cont01 { background: url('../img/img/cont01_img08.png') center center / cover no-repeat; padding: 100px 0; } 
+
+.cont01 .item { width: 400px; height: 600px; position: relative; margin: 0 auto; } 
+
+.cont01 .item img { width: 100%; height: 100%; object-fit: cover; } 
+
+.cont01 .item:hover div { display: block; transition: 0.7s; opacity: 100%; } 
+
+.cont01 .item div {/* display: none; */
+ /* 존재 사라짐 */
+/* padding: 70px; */ 
+ text-align: center; width: 100%; height: 100%; opacity: 0;
+ background-color: rgba(0, 0, 0, 0.411); color: #fff; position: absolute; top: 0; left: 0; } 
+
+.cont01 .item div p { background-color: green; height: 45px; line-height: 45px;}
+
+.cont01 .item div h4 { font-size: 45px; margin-top: 20px; }
